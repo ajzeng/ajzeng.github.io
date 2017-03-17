@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7a1a87;
+  background: #346bad;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2452,4 +2452,8 @@ hr {
   margin-top: -1.5px;
   content: '\00B6';
   color: #aaa;
+}
+.page-home .posts-expand .post-title:hover:before {
+  background: #fff;
+  color: #444;
 }

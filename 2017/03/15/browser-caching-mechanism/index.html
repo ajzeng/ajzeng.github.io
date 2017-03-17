@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="js,cache,browser cache," />
 
 
 
@@ -84,15 +84,54 @@
 
 
 
-<meta name="description" content="Just do IT">
-<meta property="og:type" content="website">
-<meta property="og:title" content="ajzeng">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="概念浏览器缓存分类：
+
+强缓存 (200 from cache)
+
+
+Expires（绝对时间）： Expires 与 此刻时间 比较来判断缓存是否过期
+Cache-Control（相对时间）： Response Headers : date  + Cache-Control : max-age 的值与 此刻时间 比较来判断缓存是否过期
+
+
+协商缓存 (304 not modified)
+
+
+ET">
+<meta property="og:type" content="article">
+<meta property="og:title" content="浏览器缓存机制">
+<meta property="og:url" content="http://yoursite.com/2017/03/15/browser-caching-mechanism/index.html">
 <meta property="og:site_name" content="ajzeng">
-<meta property="og:description" content="Just do IT">
+<meta property="og:description" content="概念浏览器缓存分类：
+
+强缓存 (200 from cache)
+
+
+Expires（绝对时间）： Expires 与 此刻时间 比较来判断缓存是否过期
+Cache-Control（相对时间）： Response Headers : date  + Cache-Control : max-age 的值与 此刻时间 比较来判断缓存是否过期
+
+
+协商缓存 (304 not modified)
+
+
+ET">
+<meta property="og:image" content="http://p1.bqimg.com/567571/ce9245c670713a4d.png">
+<meta property="og:updated_time" content="2017-03-17T03:37:34.035Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ajzeng">
-<meta name="twitter:description" content="Just do IT">
+<meta name="twitter:title" content="浏览器缓存机制">
+<meta name="twitter:description" content="概念浏览器缓存分类：
+
+强缓存 (200 from cache)
+
+
+Expires（绝对时间）： Expires 与 此刻时间 比较来判断缓存是否过期
+Cache-Control（相对时间）： Response Headers : date  + Cache-Control : max-age 的值与 此刻时间 比较来判断缓存是否过期
+
+
+协商缓存 (304 not modified)
+
+
+ET">
+<meta name="twitter:image" content="http://p1.bqimg.com/567571/ce9245c670713a4d.png">
 
 
 
@@ -113,9 +152,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/03/15/browser-caching-mechanism/"/>
 
-  <title> ajzeng </title>
+  <title> 浏览器缓存机制 | ajzeng </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,9 +175,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -225,9 +262,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -247,10 +284,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/03/15/browser-caching-mechanism/" itemprop="url">
-                  浏览器缓存机制
-                </a>
+                浏览器缓存机制
               
             
           </h1>
@@ -321,9 +355,7 @@
       
 
       
-        
-          
-            <h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>浏览器缓存分类：</p>
+        <h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>浏览器缓存分类：</p>
 <blockquote>
 <p><a href="https://segmentfault.com/a/1190000006672573#articleHeader2" target="_blank" rel="external">强缓存</a> (200 from cache)</p>
 </blockquote>
@@ -366,209 +398,63 @@
 <li><a href="https://github.com/rccoder/blog/issues/12" target="_blank" rel="external">ETag &amp; Last-modified</a></li>
 </ol>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/02/js-regexp/" itemprop="url">
-                  js正则表达式总结
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-03-02T20:40:56+08:00" content="2017-03-02">
-              2017-03-02
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/FE/" itemprop="url" rel="index">
-                    <span itemprop="name">FE</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/FE/js/" itemprop="url" rel="index">
-                    <span itemprop="name">js</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
+            <a href="/tags/js/" rel="tag">#js</a>
           
-
+            <a href="/tags/cache/" rel="tag">#cache</a>
           
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/browser-cache/" rel="tag">#browser cache</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="小括号"><a href="#小括号" class="headerlink" title="小括号"></a>小括号</h2><h3 id="分组使用"><a href="#分组使用" class="headerlink" title="分组使用"></a>分组使用</h3><p>使用()对内容进行区分<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(<span class="regexp">/(Tom)+/</span>.test(<span class="string">'TomTom'</span>));</div><div class="line"><span class="comment">//true</span></div></pre></td></tr></table></figure></p>
-<p>配合match使用可以获得匹配到的内容<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> name = <span class="string">'My name is TomTom'</span>;</div><div class="line"><span class="built_in">console</span>.log(name.match(<span class="regexp">/(Tom)/g</span>));</div><div class="line"><span class="comment">//['Tom','Tom']</span></div></pre></td></tr></table></figure></p>
-<p>括号()内仍然可以写正则<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> name = <span class="string">'My name is Tom Tm'</span>;</div><div class="line"><span class="built_in">console</span>.log(name.match(<span class="regexp">/(To?m)/g</span>));</div><div class="line"><span class="comment">//['Tom','Tm']</span></div></pre></td></tr></table></figure></p>
-<h3 id="候选-或"><a href="#候选-或" class="headerlink" title="候选(或)"></a>候选(或)</h3><p>这个相当于将括号加上一个或的功能，即在()里面使用“|”进分隔<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> name = <span class="string">'My name is Tom cat'</span>;</div><div class="line"><span class="keyword">var</span> re = <span class="regexp">/(Tom|cat)+?/ig</span>;</div><div class="line"><span class="built_in">console</span>.log(name.match(re));</div><div class="line"><span class="comment">//['Tom', 'cat']</span></div></pre></td></tr></table></figure></p>
-<h3 id="非捕获分组-与-前瞻"><a href="#非捕获分组-与-前瞻" class="headerlink" title="非捕获分组 与 前瞻"></a>非捕获分组 与 前瞻</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">正则</th>
-<th style="text-align:left">名称</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">(?=exp)</td>
-<td style="text-align:left">正向前瞻</td>
-<td>匹配exp前面的位置</td>
-</tr>
-<tr>
-<td style="text-align:left">(?!exp)</td>
-<td style="text-align:left">反向前瞻</td>
-<td>匹配后面不是exp的位置</td>
-</tr>
-</tbody>
-</table>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> str = <span class="string">'happied boring boring app'</span>;</div><div class="line"><span class="comment">// (?=)</span></div><div class="line"><span class="keyword">var</span> re1 = <span class="regexp">/app(?=ied)/g</span>;</div><div class="line"><span class="keyword">var</span> re2 = <span class="regexp">/app(?=ied)/</span>;</div><div class="line"><span class="keyword">var</span> re3 = <span class="regexp">/ap(?=ied)/g</span>;</div><div class="line"><span class="keyword">var</span> re4 = <span class="regexp">/ap(?=ied)/</span>;</div><div class="line"><span class="built_in">console</span>.log(str.match(re1)); <span class="comment">//['app']</span></div><div class="line"><span class="built_in">console</span>.log(str.match(re2)); <span class="comment">//['app',index:1,input: 'happied boring boring app']</span></div><div class="line"><span class="built_in">console</span>.log(str.match(re3)); <span class="comment">//null</span></div><div class="line"><span class="built_in">console</span>.log(str.match(re4)); <span class="comment">//null</span></div><div class="line"></div><div class="line"><span class="comment">// (?!)</span></div><div class="line"><span class="keyword">var</span> re5 = <span class="regexp">/bor(?!ied)/g</span>;</div><div class="line"><span class="keyword">var</span> re6 = <span class="regexp">/bor(?!ied)/</span>;</div><div class="line"><span class="keyword">var</span> re7 = <span class="regexp">/app(?!ied)/g</span>;</div><div class="line"><span class="keyword">var</span> re8 = <span class="regexp">/app(?!ied)/</span>;</div><div class="line"><span class="keyword">var</span> re9 = <span class="regexp">/happ(?!ied)/g</span>;</div><div class="line"><span class="keyword">var</span> re10 = <span class="regexp">/happ(?!ied)/</span>;</div><div class="line"><span class="built_in">console</span>.log(str.match(re5)); <span class="comment">//['bor', 'bor']</span></div><div class="line"><span class="built_in">console</span>.log(str.match(re6)); <span class="comment">//['bor', index: 8, input:'happied boring boring app']</span></div><div class="line"><span class="built_in">console</span>.log(str.match(re7)); <span class="comment">//['app']</span></div><div class="line"><span class="built_in">console</span>.log(str.match(re8)); <span class="comment">//['app', index: 22, input:'happied boring boring app']</span></div><div class="line"><span class="built_in">console</span>.log(str.match(re9)); <span class="comment">//null</span></div><div class="line"><span class="built_in">console</span>.log(str.match(re10)); <span class="comment">//null</span></div></pre></td></tr></table></figure>
-<p><code>(?=)</code>, <code>(?!)</code>会作为匹配校验，但不会出现在匹配结果字符串里面<br><code>(?:)</code>会作为匹配校验，并出现在匹配结果字符串里面，它和<code>(...)</code>的不同之处在于，不作为子匹配返回</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> str = <span class="string">'win 10 is ok.'</span>;</div><div class="line"><span class="built_in">console</span>.log(str.match(<span class="regexp">/win (?=\d+)/</span>));</div><div class="line"><span class="comment">//['win ', index: 0, input: 'win 10 is ok.']</span></div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(str.match(<span class="regexp">/win (?:\d+)/</span>));</div><div class="line"><span class="comment">//['win 10', index: 0, input: 'win 10 is ok.']</span></div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(str.match(<span class="regexp">/win (\d+)/</span>));</div><div class="line"><span class="comment">//['win 10', '10' index: 0, input: 'win 10 is ok.']</span></div></pre></td></tr></table></figure>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 应用例子:找出字符串中以e结尾的单词</span></div><div class="line"></div><div class="line"><span class="keyword">var</span> str = <span class="string">'You cannot step twice into the same river.'</span>;</div><div class="line"><span class="keyword">var</span> re = <span class="regexp">/\b\w+(?=e\b)/ig</span>;</div><div class="line"><span class="keyword">var</span> arr = str.match(re); <span class="comment">//['twic', 'th', 'sam']</span></div><div class="line"><span class="keyword">var</span> result = arr.map(<span class="function"><span class="keyword">function</span>(<span class="params">item, index, arr</span>) </span>&#123;</div><div class="line">	<span class="keyword">return</span> item.replace(<span class="regexp">/(\w+)/</span>,<span class="string">'$1e'</span>);</div><div class="line">	<span class="comment">//这里$1代表匹配的第一组数据</span></div><div class="line">&#125;);</div><div class="line"><span class="built_in">console</span>.log(result); <span class="comment">// ['twice', 'the', 'same']</span></div></pre></td></tr></table></figure>
-<h2 id="量词分类"><a href="#量词分类" class="headerlink" title="量词分类"></a>量词分类</h2><h3 id="贪婪量词"><a href="#贪婪量词" class="headerlink" title="贪婪量词 * + ?"></a>贪婪量词 <code>*</code> <code>+</code> <code>?</code></h3><p>匹配过程：</p>
-<ol>
-<li>全文匹配，如果不成功，则最后一个字符减去</li>
-<li>再进行匹配，如果还不成功，重复上述过程直到匹配成功或者长度变成0匹配失败</li>
-<li>接着，首位往后移动一位，重复1和2的过程进行匹配</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(<span class="regexp">/\d+/</span>.test(<span class="string">'12344'</span>));</div><div class="line"><span class="comment">//true</span></div></pre></td></tr></table></figure>
-<h3 id="惰性量词"><a href="#惰性量词" class="headerlink" title="惰性量词 ?"></a>惰性量词 <code>?</code></h3><p>该量词一开始只会匹配一个字符，如果不成功则在进行匹配，我们通常称惰性匹配为最少重复匹配</p>
-<ol>
-<li><p>贪婪匹配</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> str = <span class="string">'blablablabla'</span>;</div><div class="line"><span class="built_in">console</span>.log(str.match(<span class="regexp">/(b.*a)/g</span>));</div><div class="line"><span class="comment">//['blablablabla']</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>惰性匹配</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">console.log(str.match(<span class="regexp">/(b.*?a)/g</span>));</div><div class="line"><span class="comment">//['bla','bla','bla','bla']</span></div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="[ 基础知识 ]"></a>[ 基础知识 ]</h2><ul>
-<li><a href="http://www.w3school.com.cn/jsref/jsref_obj_regexp.asp" target="_blank" rel="external">w3c js正则匹配</a></li>
-</ul>
-<h2 id="Tips"><a href="#Tips" class="headerlink" title="[Tips]"></a>[Tips]</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">/\d/ == <span class="regexp">/[0-9]/</span></div><div class="line">/\w/ == <span class="regexp">/[_0-9a-zA-Z]/</span>  <span class="comment">//注意还有下划线 _</span></div><div class="line">/\S/ == <span class="regexp">/[^\t\n\r\f\x0B]/</span></div><div class="line">/[\u4e00-\u9fa5]/  <span class="comment">//中文</span></div></pre></td></tr></table></figure>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/02/js-regexp/" rel="next" title="js正则表达式总结">
+                <i class="fa fa-chevron-left"></i> js正则表达式总结
+              </a>
+            
+          </div>
 
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -576,6 +462,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -595,8 +485,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/myAvatar.jpg"
@@ -646,6 +545,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概念"><span class="nav-number">1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#浏览器缓存过程"><span class="nav-number">2.</span> <span class="nav-text">浏览器缓存过程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#强缓存"><span class="nav-number">2.1.</span> <span class="nav-text">强缓存</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#协商缓存"><span class="nav-number">2.2.</span> <span class="nav-text">协商缓存</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他注意事项"><span class="nav-number">3.</span> <span class="nav-text">其他注意事项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接"><span class="nav-number">4.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -733,6 +643,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
